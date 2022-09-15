@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDRIOD/3Movies-master/app/src/main/res/layout/fragment_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/ANDRIOD/3Movies-master/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/ANDRIOD/3Movies-master/app/src/main/res/layout/movie_list_item.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/casper/AndroidStudioProjects/3Movies-BranchViewModel/app/src/main/res/layout/fragment_details.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/casper/AndroidStudioProjects/3Movies-BranchViewModel/app/src/main/res/layout/movie_list_item.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16473259334006055" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.25271739130434784" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/fragment_first1.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25271739130434784" />
+        <entry key="app/src/main/res/layout/movie_list_item.xml" value="0.43838981990256054" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

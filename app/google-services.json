@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565488394708",
+    "project_id": "movies-6cdd2",
+    "storage_bucket": "movies-6cdd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565488394708:android:d49198ff2d0768dc3c3641",
+        "android_client_info": {
+          "package_name": "com.allam.a3movies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565488394708-va1n2bn0ke9qm669jec3g2iemp6dds8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_e648Mwg6wbzD6kMoEYH2noQhbjjtS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565488394708-va1n2bn0ke9qm669jec3g2iemp6dds8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
