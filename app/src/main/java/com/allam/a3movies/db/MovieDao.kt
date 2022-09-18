@@ -17,7 +17,6 @@ interface MovieDao {
     @Insert
     suspend fun insertAll(movies: List<Movie>)
 
-
     @Insert
     suspend fun insert(movies: Movie)
 
