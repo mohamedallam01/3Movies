@@ -10,6 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.allam.a3movies.databinding.ActivityMainBinding
 import com.allam.a3movies.databinding.FragmentHomeBinding
 import com.allam.a3movies.ui.State
 import com.allam.a3movies.ui.adapter.MoviesAdapter
@@ -28,6 +29,8 @@ class HomeFragment : Fragment() {
     private val homeViewModel: HomeViewModel by viewModels()
 
     lateinit var moviesAdapter: MoviesAdapter
+
+
 
 
     override fun onCreateView(
@@ -69,8 +72,11 @@ class HomeFragment : Fragment() {
                     is State.Success -> {
                         moviesAdapter.submitList(state.data)
                     }
+                    else -> {}
                 }
             }
         }
+
+
     }
 }

@@ -25,6 +25,8 @@ class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieD
         )
 
 
+
+
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         holder.bindData(getItem(position))
     }
@@ -49,8 +51,15 @@ class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieD
                 image_movie.findNavController().navigate(action)
             }
 
+
+
+
+
+
         }
     }
+
+
 
 
     class MovieDiffUtil : DiffUtil.ItemCallback<Movie>() {
