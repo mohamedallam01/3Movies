@@ -39,6 +39,7 @@ class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieD
         var txtVoteAv: TextView = view.findViewById(R.id.voteAV_movie)
         var image_movie: ImageView = view.findViewById(R.id.movie_image)
 
+
         fun bindData(movie: Movie) {
             txtTitle.text = movie.title
             txtReDate.text = movie.release_date

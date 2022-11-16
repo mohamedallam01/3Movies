@@ -27,4 +27,24 @@
             app:argType="integer"
             android:defaultValue="0" />
     </fragment>
+
+    <fragment
+        android:id="@+id/home_movie"
+        android:name="com.allam.a3movies.ui.home.HomeFragment"
+        android:label="fragment_first"
+        />
+    <fragment
+        android:id="@+id/suggested_movie"
+        android:name="com.allam.a3movies.ui.suggested.SuggestedFragment"
+        android:label="fragment_second"
+        />
+    <fragment
+        android:id="@+id/favorite_movie"
+        android:name="com.allam.a3movies.ui.favourites.FavouritesFragment"
+        android:label="fragment_third"
+        />
+    <fragment
+        android:id="@+id/user_movie"
+        android:name="com.allam.a3movies.ui.user.UserFragment"/>
+
 </navigation>
