@@ -1,16 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity:1.5.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d408e3d0c51c0f1e85a9fce762086555/transformed/activity-1.5.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/4ca0fb4e1e429ceb8ca288197fd99712/transformed/activity-1.5.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d408e3d0c51c0f1e85a9fce762086555/transformed/activity-1.5.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d408e3d0c51c0f1e85a9fce762086555/transformed/activity-1.5.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d408e3d0c51c0f1e85a9fce762086555/transformed/activity-1.5.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/4ca0fb4e1e429ceb8ca288197fd99712/transformed/activity-1.5.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/4ca0fb4e1e429ceb8ca288197fd99712/transformed/activity-1.5.1/res" />
+      <root url="file://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/4ca0fb4e1e429ceb8ca288197fd99712/transformed/activity-1.5.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.5.1/55c391fc0c910cc005c57b1767624a033fd0f013/activity-1.5.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.5.1/55c391fc0c910cc005c57b1767624a033fd0f013/activity-1.5.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

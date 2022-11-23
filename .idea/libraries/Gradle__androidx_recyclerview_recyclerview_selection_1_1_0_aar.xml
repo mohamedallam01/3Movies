@@ -1,16 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.recyclerview:recyclerview-selection:1.1.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2a62415ca05af23fe5045e4d3728a7a/transformed/recyclerview-selection-1.1.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/c79e2d4424e373d962c3149413ccd068/transformed/recyclerview-selection-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2a62415ca05af23fe5045e4d3728a7a/transformed/recyclerview-selection-1.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2a62415ca05af23fe5045e4d3728a7a/transformed/recyclerview-selection-1.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2a62415ca05af23fe5045e4d3728a7a/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/c79e2d4424e373d962c3149413ccd068/transformed/recyclerview-selection-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/c79e2d4424e373d962c3149413ccd068/transformed/recyclerview-selection-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/c79e2d4424e373d962c3149413ccd068/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview-selection/1.1.0/1095da7182a2b5bc725b8582fb620e3425ee13b5/recyclerview-selection-1.1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview-selection/1.1.0/1095da7182a2b5bc725b8582fb620e3425ee13b5/recyclerview-selection-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

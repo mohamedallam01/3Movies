@@ -25,6 +25,8 @@ class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieD
         )
 
 
+
+
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         holder.bindData(getItem(position))
     }
@@ -36,6 +38,7 @@ class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieD
         var txtReDate: TextView = view.findViewById(R.id.redate_movie)
         var txtVoteAv: TextView = view.findViewById(R.id.voteAV_movie)
         var image_movie: ImageView = view.findViewById(R.id.movie_image)
+
 
         fun bindData(movie: Movie) {
             txtTitle.text = movie.title
@@ -49,8 +52,15 @@ class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieD
                 image_movie.findNavController().navigate(action)
             }
 
+
+
+
+
+
         }
     }
+
+
 
 
     class MovieDiffUtil : DiffUtil.ItemCallback<Movie>() {

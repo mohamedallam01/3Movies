@@ -1,12 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-installations:17.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/362cd27c0f3766b1a464b86082d2b708/transformed/firebase-installations-17.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/362cd27c0f3766b1a464b86082d2b708/transformed/firebase-installations-17.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/362cd27c0f3766b1a464b86082d2b708/transformed/firebase-installations-17.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/98c6161e4fdd91d189701e50eea93306/transformed/firebase-installations-17.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/98c6161e4fdd91d189701e50eea93306/transformed/firebase-installations-17.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-installations/17.0.1/a5de27e8894c107c06e27ee0bfdf8c24216354a2/firebase-installations-17.0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-installations/17.0.1/a5de27e8894c107c06e27ee0bfdf8c24216354a2/firebase-installations-17.0.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

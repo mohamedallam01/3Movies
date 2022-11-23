@@ -1,12 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-common-ktx:20.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ebb12a0de8370c2399066f965db86621/transformed/firebase-common-ktx-20.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ebb12a0de8370c2399066f965db86621/transformed/firebase-common-ktx-20.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ebb12a0de8370c2399066f965db86621/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/8f570b50a5d9fb7b20c8f2ed77e9d08b/transformed/firebase-common-ktx-20.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/transforms-3/8f570b50a5d9fb7b20c8f2ed77e9d08b/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-common-ktx/20.1.1/f744c080c46ac809bb0ef02e56399b9dbbbe4993/firebase-common-ktx-20.1.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-common-ktx/20.1.1/f744c080c46ac809bb0ef02e56399b9dbbbe4993/firebase-common-ktx-20.1.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

@@ -8,6 +8,8 @@
     android:layout_height="match_parent">
 
 
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mov_rec_view"
         android:layout_width="match_parent"
@@ -23,6 +25,8 @@
         tools:ignore="MissingConstraints"
         tools:listitem="@layout/movie_list_item" />
 
+
+
     <ProgressBar
         android:id="@+id/progress_Bar"
         style="?android:attr/progressBarStyle"
@@ -32,6 +36,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
