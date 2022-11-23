@@ -7,21 +7,19 @@ import androidx.room.RoomDatabase
 import com.allam.a3movies.model.Movie
 import com.allam.a3movies.model.TopRatedMovie
 import kotlinx.coroutines.InternalCoroutinesApi
-import kotlinx.coroutines.internal.synchronized
 
+@Database(entities = [TopRatedMovie::class], version = 1, exportSchema = false)
+abstract class TopDatabase: RoomDatabase() {
 
-@Database(entities = [Movie::class], version = 1, exportSchema = false)
-abstract class MovieDatabase : RoomDatabase() {
-    abstract fun movieDao(): MovieDao
-
+    abstract fun topMovieDao() : TopDao
 
     companion object {
         @Volatile
-        private var INSTANCE: MovieDatabase? = null
+        private var INSTANCE: TopDatabase? = null
 
 
-        @OptIn(InternalCoroutinesApi::class)
-        fun getDatabase(context: Context): MovieDatabase {
+
+        fun getTopDatabase (context: Context): TopDatabase {
             val tempInstance = INSTANCE
             if (tempInstance != null) {
                 return tempInstance
@@ -30,8 +28,8 @@ abstract class MovieDatabase : RoomDatabase() {
             synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
-                    MovieDatabase::class.java,
-                    "movie_database"
+                    TopDatabase::class.java,
+                    "top_movie_database"
                 ).build()
                 INSTANCE = instance
                 return instance
@@ -39,4 +37,6 @@ abstract class MovieDatabase : RoomDatabase() {
 
         }
     }
+
+
 }
