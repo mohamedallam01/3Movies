@@ -34,8 +34,8 @@
         android:label="fragment_first"
         />
     <fragment
-        android:id="@+id/suggested_movie"
-        android:name="com.allam.a3movies.ui.suggested.SuggestedFragment"
+        android:id="@+id/top_rated_movie"
+        android:name="com.allam.a3movies.ui.topRated.TopRatedFragment"
         android:label="fragment_second"
         />
     <fragment

@@ -1,11 +1,10 @@
 package com.allam.a3movies.di.module
 
 import com.allam.a3movies.db.MovieDao
+import com.allam.a3movies.db.TopDao
 import com.allam.a3movies.network.api.MoviesService
-import com.allam.a3movies.repository.DetailsMovieRepo
-import com.allam.a3movies.repository.DetailsMovieRepoImpl
-import com.allam.a3movies.repository.MovieRepo
-import com.allam.a3movies.repository.MovieRepoImp
+import com.allam.a3movies.network.api.TopMoviesService
+import com.allam.a3movies.repository.*
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -32,6 +31,13 @@ class RepositoryModule {
         moviesService: MoviesService
     ): DetailsMovieRepo =
         DetailsMovieRepoImpl(movieDao, moviesService)
+
+
+    @OptIn(ExperimentalCoroutinesApi::class)
+    @Singleton
+    @Provides
+    fun provideTopMovieRepository(topMovieDao : TopDao, topMoviesService: TopMoviesService): TopRatedRepo =
+        TopRatedImpl(topMovieDao, topMoviesService)
 
 
 }
