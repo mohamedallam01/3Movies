@@ -15,9 +15,11 @@ abstract class MovieDatabase : RoomDatabase() {
     abstract fun movieDao(): MovieDao
 
 
+
     companion object {
         @Volatile
         private var INSTANCE: MovieDatabase? = null
+
 
 
         @OptIn(InternalCoroutinesApi::class)
@@ -38,5 +40,6 @@ abstract class MovieDatabase : RoomDatabase() {
             }
 
         }
+
     }
 }

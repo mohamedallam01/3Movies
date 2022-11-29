@@ -60,16 +60,15 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/e5bd49825d06ce5bcf298c26d2668114/transformed/lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a4e6240c623159a9861bb09fa0e86c04/transformed/core-ktx-1.9.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/4b5d5ca47497dabf9eb9024bc9c5ea16/transformed/espresso-core-3.5.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a298061d266d661d4cfb11f207aa6e03/transformed/dynamicanimation-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/fe84c988b5b48fe3f0e3343b3c8908db/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6d58edbad54d57dbc14e75b0389f25fb/transformed/loader-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/cbf084ded691d9f1f7fa3b6bf0dd6670/transformed/lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/dc968e054574fc94fb46dcee36266c3e/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/07d3a068feec90540cb69df6b82fb863/transformed/lifecycle-runtime-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.5.1/5b8f86fea035328fc9e8c660773037a3401ce25f/lifecycle-common-java8-2.5.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/aaee5e1ac40f9390e227d43fd81d072a/transformed/recyclerview-selection-1.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/c1f4b4834cb4cbea18d95b3dbc294bcf/transformed/recyclerview-1.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/1302c0509c6e8225ea89432804873e88/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/62099091550782c730d07502e6ab6f22/transformed/appcompat-resources-1.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/b683158321488c36fc75eeaf830300b2/transformed/drawerlayout-1.1.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/c9fe1e84d8b39940de284b37ea062ff0/transformed/coordinatorlayout-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a298061d266d661d4cfb11f207aa6e03/transformed/dynamicanimation-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/e05c07efbe01c81eeef05d4ac54d2665/transformed/transition-1.4.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/f82def765a18e3ec0db4c7b2dbfaeb1e/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/77791cdb93f8c74b7f9bf8582f390b45/transformed/vectordrawable-1.1.0-api.jar</arg>
@@ -77,24 +76,24 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/f27dc28f14d5d4e11fcbcdebf1742d10/transformed/slidingpanelayout-1.2.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a190531c708a620a9e722b182706f584/transformed/customview-1.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/62763f59c4e2766793d997b9750ff0d1/transformed/browser-1.4.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/fe84c988b5b48fe3f0e3343b3c8908db/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6d58edbad54d57dbc14e75b0389f25fb/transformed/loader-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/5fcfb276c4833a10a647987a4c7d5ad9/transformed/core-1.9.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d771a8ca8c569a83274d6445b12e91fb/transformed/coil-2.2.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/42c3c3dcfc166818416d29dc61bae53f/transformed/coil-base-2.2.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/07d3a068feec90540cb69df6b82fb863/transformed/lifecycle-runtime-ktx-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/9fd5162684ce89ebf5971c56ea5b8a63/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.5.1/5b8f86fea035328fc9e8c660773037a3401ce25f/lifecycle-common-java8-2.5.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/1302c0509c6e8225ea89432804873e88/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/98625af4b104cbc48a9967373d2b2279/transformed/cursoradapter-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a171074a3f6d189d43e9fbf97640e793/transformed/savedstate-ktx-1.2.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/845a0614a44c2aa7f76652667dbc1f57/transformed/savedstate-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d771a8ca8c569a83274d6445b12e91fb/transformed/coil-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/42c3c3dcfc166818416d29dc61bae53f/transformed/coil-base-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/9fd5162684ce89ebf5971c56ea5b8a63/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/7690a0a0d67ca22a43c08165993fa7fa/transformed/core-1.5.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/5dbc5162ddce1380aaea873fa413ad82/transformed/runner-1.5.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/3733d5ccf87b7b2dc45e45519cbfa02b/transformed/storage-1.4.2-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a96203073254aa0162b919fa55c17b35/transformed/monitor-1.6.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/818eff12ad5dbb990c5473d80b775716/transformed/annotation-1.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/cbf084ded691d9f1f7fa3b6bf0dd6670/transformed/lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/dc968e054574fc94fb46dcee36266c3e/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/46a97ab4089a1f758ae20da6d10eeac3/transformed/lifecycle-livedata-ktx-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/02ec5157bc546dbd52459643a9873961/transformed/lifecycle-livedata-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8258ad3d15ae62e1c340af93518a1abd/transformed/core-runtime-2.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/7799b52188a9265616e2f4009105d73f/transformed/lifecycle-livedata-core-ktx-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/2a61f93bdc3bae5fb5b5eae9838aa4e9/transformed/lifecycle-livedata-core-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.1/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.5.1.jar</arg>
@@ -108,6 +107,8 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.1.0/f807b2f366f7b75142a67d2f3c10031065b5168/collection-ktx-1.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.2.0/34dbc21d203cc4d4d623ac572a21acd4ccd716af/collection-1.2.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8234630bfd20c08b6cd8c8f0674b797a/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8258ad3d15ae62e1c340af93518a1abd/transformed/core-runtime-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/40ec70762cb027df33974a5d62a2e4db/transformed/interpolator-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6787ca6007553d544fb2fffdf41dba77/transformed/documentfile-1.0.0-api.jar</arg>
@@ -353,6 +354,7 @@
     <orderEntry type="library" name="Gradle: androidx.test.services:storage:1.4.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.test:runner:1.5.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.5.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.room:room-runtime:2.4.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite-framework:2.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite:2.2.0@aar" level="project" />

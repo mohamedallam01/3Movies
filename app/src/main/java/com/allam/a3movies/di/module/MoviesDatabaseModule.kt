@@ -28,7 +28,7 @@ class MoviesDatabaseModule {
 
     @Singleton
     @Provides
-    fun provideTopMoviesDao(database: TopDatabase) = database.topMovieDao()
+    fun provideTopMoviesDao(database: TopDatabase) = database.topDao()
 
 
 }
