@@ -4,28 +4,28 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.GridLayout
-import android.widget.GridView
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.allam.a3movies.databinding.FragmentTopRatedBinding
 import com.allam.a3movies.ui.State
 import com.allam.a3movies.ui.adapter.TopRatedAdapter
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
+
 @OptIn(ExperimentalCoroutinesApi::class)
+@AndroidEntryPoint
 class TopRatedFragment : Fragment() {
 
     lateinit var binding: FragmentTopRatedBinding
 
 
-    lateinit var topRatedViewModel: TopRatedViewModel
+    private val topRatedViewModel: TopRatedViewModel by viewModels()
 
      lateinit var topRatedAdapter : TopRatedAdapter
 
@@ -46,6 +46,8 @@ class TopRatedFragment : Fragment() {
         topRatedAdapter = TopRatedAdapter()
 
         binding.topRatedGrid.apply {
+            layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+            adapter = topRatedAdapter
 
         }
 

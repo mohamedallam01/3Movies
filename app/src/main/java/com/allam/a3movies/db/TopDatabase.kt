@@ -10,29 +10,28 @@ import kotlinx.coroutines.InternalCoroutinesApi
 
 @Database(entities = [TopRatedMovie::class], version = 1, exportSchema = false)
 abstract class TopDatabase: RoomDatabase() {
-
-    abstract fun topMovieDao() : TopDao
+    abstract fun topDao() : TopDao
 
     companion object {
         @Volatile
-        private var INSTANCE: TopDatabase? = null
+        private var INSTANCE2: TopDatabase? = null
 
 
 
         fun getTopDatabase (context: Context): TopDatabase {
-            val tempInstance = INSTANCE
-            if (tempInstance != null) {
-                return tempInstance
+            val tempInstance2 = INSTANCE2
+            if (tempInstance2 != null) {
+                return tempInstance2
             }
 
             synchronized(this) {
-                val instance = Room.databaseBuilder(
+                val instance2 = Room.databaseBuilder(
                     context.applicationContext,
                     TopDatabase::class.java,
                     "top_movie_database"
                 ).build()
-                INSTANCE = instance
-                return instance
+                INSTANCE2 = instance2
+                return instance2
             }
 
         }

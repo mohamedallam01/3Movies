@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Home"
-        android:id="@+id/home_movie"
+        android:id="@+id/home_nav_graph"
         android:icon="@drawable/ic_baseline_home_24"/>
-    <item android:title="Suggested"
-        android:id="@+id/suggested_movie"
+    <item android:title="Top Rated"
+        android:id="@+id/top_nav_graph"
         android:icon="@drawable/ic_baseline_movie_24"/>
 
     <item android:title="Favourite"
-        android:id="@+id/favorite_movie"
+        android:id="@+id/favorite_nav_graph"
         android:icon="@drawable/ic_baseline_favorite_24"/>
 
     <item android:title="User"
-        android:id="@+id/user_movie"
+        android:id="@+id/user_nav_graph"
         android:icon="@drawable/ic_baseline_person_24"/>
 </menu>
