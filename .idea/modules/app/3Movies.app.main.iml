@@ -14,8 +14,8 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a03e0a736ffddd616391931d6599d5df/transformed/viewbinding-7.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/b274694f0412347582afef47eec0858c/transformed/mediation-test-suite-3.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/5bdefaa96716ab2a2aa2cd8c1d06241b/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/c5822262958d3ab74e60add7703bca08/transformed/navigation-ui-2.5.3-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/e331ff9a01bd2acc5180ba3a53c6f4e4/transformed/material-1.7.0-api.jar</arg>
@@ -23,25 +23,30 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d482e40aff1ef21fe1d1d61e2b84e60c/transformed/hilt-android-2.42-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/df6a7ed5af54a917c1239e8dff708181/transformed/firebase-auth-21.0.7-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6ec41b5f5b588705c412cd65ac31e8eb/transformed/viewpager2-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8a88952e8a4e6687cdb63dd1ca2b53d5/transformed/play-services-ads-21.3.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/527d7a866bc5ab4caa6265d17b4d1b38/transformed/firebase-firestore-24.2.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/c4c1d9a6cbd334dea1616d8872013cdf/transformed/play-services-ads-lite-21.3.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/ab46162d25b513339a35a9afa84b9135/transformed/play-services-ads-base-21.3.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/4fab69c44ed09a388d3887cd23f90de2/transformed/firebase-analytics-ktx-21.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d6c887b6fd893e8cb3e8befb898cf35f/transformed/firebase-common-ktx-20.1.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/0284f4f8b8a0bdf8bc453483549dd914/transformed/firebase-analytics-21.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a3d9d92b326266f990a998696a4e7aa8/transformed/play-services-measurement-21.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/b2139cacd5f123c2768c846a096bc6f9/transformed/play-services-measurement-api-21.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/18f92c9eb1a15f55f1ece63ac139ffee/transformed/user-messaging-platform-2.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/08fc9269b61adb30b8bd4e253cf68c20/transformed/play-services-measurement-sdk-21.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d7393d2751f16b16557b84adacd0f50e/transformed/play-services-measurement-impl-21.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d8e2ee34e3db924f7eadd482172aa569/transformed/play-services-ads-identifier-18.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/b211049652fe642fcbb209e432d97608/transformed/play-services-appset-16.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d6c887b6fd893e8cb3e8befb898cf35f/transformed/firebase-common-ktx-20.1.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/65bdc82fbec872465d4fca5d8a6bda12/transformed/firebase-auth-interop-20.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a4b9feca49c9f303b1b1b5d17c8c1fc3/transformed/firebase-appcheck-interop-16.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/0e42dfaa65a3572f6804e05e08c12012/transformed/firebase-installations-17.0.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/80d02d27b1eb2b0fa9d34e83615babbc/transformed/firebase-common-20.1.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a3d9d92b326266f990a998696a4e7aa8/transformed/play-services-measurement-21.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/08fc9269b61adb30b8bd4e253cf68c20/transformed/play-services-measurement-sdk-21.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/ece747accef8eecc007a55ca48f1ad36/transformed/play-services-auth-api-phone-17.4.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/7210f9d49883898be4ac394e0b243432/transformed/play-services-safetynet-17.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8d0b14a9753d65999ef17a4fe14e6d71/transformed/firebase-database-collection-18.0.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/5c4aead759e220a79677259f76f5a48a/transformed/play-services-base-18.0.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/4aef7e9caaf6606f1e9b779841669ace/transformed/firebase-installations-interop-17.0.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/e1dde85fccebb24606de30516cc6ef1d/transformed/play-services-tasks-18.0.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d7393d2751f16b16557b84adacd0f50e/transformed/play-services-measurement-impl-21.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/d8e2ee34e3db924f7eadd482172aa569/transformed/play-services-ads-identifier-18.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/61321c9d454832ca23406e069f630811/transformed/play-services-measurement-sdk-api-21.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6217522cc97f80192d6d449cea60f128/transformed/play-services-measurement-base-21.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/155cde055bca438604c72abfe2e28524/transformed/play-services-stats-17.0.2-api.jar</arg>
@@ -72,10 +77,10 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/e05c07efbe01c81eeef05d4ac54d2665/transformed/transition-1.4.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/f82def765a18e3ec0db4c7b2dbfaeb1e/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/77791cdb93f8c74b7f9bf8582f390b45/transformed/vectordrawable-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/62763f59c4e2766793d997b9750ff0d1/transformed/browser-1.4.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/9b01ab5038a360a9a2baa5d169544a51/transformed/viewpager-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/f27dc28f14d5d4e11fcbcdebf1742d10/transformed/slidingpanelayout-1.2.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a190531c708a620a9e722b182706f584/transformed/customview-1.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/62763f59c4e2766793d997b9750ff0d1/transformed/browser-1.4.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/fe84c988b5b48fe3f0e3343b3c8908db/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6d58edbad54d57dbc14e75b0389f25fb/transformed/loader-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/5fcfb276c4833a10a647987a4c7d5ad9/transformed/core-1.9.0-api.jar</arg>
@@ -90,9 +95,13 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/3733d5ccf87b7b2dc45e45519cbfa02b/transformed/storage-1.4.2-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/a96203073254aa0162b919fa55c17b35/transformed/monitor-1.6.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/818eff12ad5dbb990c5473d80b775716/transformed/annotation-1.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/44201fc439b95206a336dfce0c8a9123/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.1.0/f807b2f366f7b75142a67d2f3c10031065b5168/collection-ktx-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.2.0/34dbc21d203cc4d4d623ac572a21acd4ccd716af/collection-1.2.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/cbf084ded691d9f1f7fa3b6bf0dd6670/transformed/lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/dc968e054574fc94fb46dcee36266c3e/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/46a97ab4089a1f758ae20da6d10eeac3/transformed/lifecycle-livedata-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/ffcf634d7f996a42126e9f25da59d532/transformed/work-runtime-2.7.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/02ec5157bc546dbd52459643a9873961/transformed/lifecycle-livedata-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/7799b52188a9265616e2f4009105d73f/transformed/lifecycle-livedata-core-ktx-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/2a61f93bdc3bae5fb5b5eae9838aa4e9/transformed/lifecycle-livedata-core-2.5.1-api.jar</arg>
@@ -103,9 +112,6 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/0139f20edefefe9985d15f24276e370d/transformed/sqlite-framework-2.2.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/6cb29f9eac5caa18218b672efed1213b/transformed/sqlite-2.2.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/f477c905d3d8fdf4f2b6afb1b92d8b3b/transformed/firebase-components-17.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/44201fc439b95206a336dfce0c8a9123/transformed/versionedparcelable-1.1.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.1.0/f807b2f366f7b75142a67d2f3c10031065b5168/collection-ktx-1.1.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.2.0/34dbc21d203cc4d4d623ac572a21acd4ccd716af/collection-1.2.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8234630bfd20c08b6cd8c8f0674b797a/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/8258ad3d15ae62e1c340af93518a1abd/transformed/core-runtime-2.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
@@ -119,7 +125,7 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.9.0/fc93484fc67ab52b1e0ccbdaa3922d8a6678e097/converter-gson-2.9.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.9.0/d8fdfbd5da952141a665a403348b74538efc05ff/retrofit-2.9.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.11.0/f24576b8fd39d34149654df9702f070042083b65/logging-interceptor-3.11.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/4.8.1/b9d991a3fe3976efd00888f2d3aeace1b6358442/logging-interceptor-4.8.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.10.0/cd63657ac15770ed1420647154c9f44645533bef/okhttp-4.10.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-okhttp/1.44.1/577c61816b27a2af018070d00ef8ff18c009b10a/grpc-okhttp-1.44.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar</arg>
@@ -127,6 +133,7 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.10/d70d7d2c56371f7aa18f32e984e3e2e998fe9081/kotlin-stdlib-jdk8-1.7.10.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.20/2a729aa8763306368e665e2b747abd1dfd29b9d5/kotlin-stdlib-jdk7-1.7.20.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/3668498d84853a2e0582720c1a64258e/transformed/annotation-experimental-1.3.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/49633171992dc6a4f299f09964c1b56c/transformed/flexbox-3.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.20/726594ea9ba2beb2ee113647fefa9a10f9fabe52/kotlin-stdlib-1.7.20.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.20/e15351bdaf9fa06f009be5da7a202e4184f00ae3/kotlin-stdlib-common-1.7.20.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
@@ -134,9 +141,13 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1.1-android/5963ed171d561cca6f14659f3439b46a1633ab13/guava-30.1.1-android.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/fc84b8aeb703f16505f1970a44baa87c/transformed/tracing-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/fd9b110a767d9b6f6bad3588d5d4e809/transformed/startup-runtime-1.1.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/68b127f9243a2e5a0b8a01eb31f38fe9/transformed/constraintlayout-2.1.4-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-core/1.0.4/29cdbe03ded6b0980f63fa5da2579a430e911c40/constraintlayout-core-1.0.4.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.0/8a1167e089096758b49f9b34066ef98b2f4b37aa/gson-2.9.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/b2a3d3541af0190bc4239260baf6be0c/transformed/volley-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/150e51d4038f810157fe23fbfc427cab/transformed/multidex-2.0.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.dagger/hilt-core/2.42/affe409aba4a2af374218d976de70b6fdd09e86f/hilt-core-2.42.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.44.1/e1cd978629dacd0cee8913a9f18b94b1a52c924d/grpc-protobuf-lite-1.44.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/353d00c8d5afce99d63db9ba683e52ec/transformed/grpc-android-1.44.1-api.jar</arg>
@@ -151,7 +162,6 @@
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.42/e0c9267991f4c4e167fc612947a948ffd27f3017/dagger-2.42.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.0/8a1167e089096758b49f9b34066ef98b2f4b37aa/gson-2.9.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/139da30a2650ba0521971a87f2a39850/transformed/dagger-lint-aar-2.42-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-annotations/16.1.0/64bf465fd5aa693067bfd6bc28efb260e1ad29ea/firebase-annotations-16.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../CandyBytes/danger-main/.gradle/caches/transforms-3/5ecb56a5775c0915fd2212a1a11e958a/transformed/protolite-well-known-types-18.0.0-api.jar</arg>
@@ -213,6 +223,8 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug">
@@ -224,11 +236,16 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/src/debug" />
@@ -261,8 +278,9 @@
     <orderEntry type="library" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-core:1.0.4" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: androidx.concurrent:concurrent-futures:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
@@ -274,8 +292,7 @@
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.10.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio-jvm:3.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:3.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:4.8.1" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common-java8:2.5.1" level="project" />
     <orderEntry type="library" name="Gradle: androidx.room:room-common:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.42" level="project" />
@@ -346,6 +363,24 @@
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui:2.5.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-compose:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.ads:mediation-test-suite:3.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads:21.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-base:21.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-lite:21.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.work:work-runtime:2.7.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.startup:startup-runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:21.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:21.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.ump:user-messaging-platform:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-appset:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:18.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.flexbox:flexbox:3.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.volley:volley:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.test.espresso:espresso-core:3.5.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.test:core:1.5.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.test:monitor:1.6.0@aar" level="project" />
@@ -367,14 +402,9 @@
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-ktx:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement:21.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:18.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-impl:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:17.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api:21.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:21.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:18.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:20.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-components:17.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations:17.0.1@aar" level="project" />
@@ -383,9 +413,7 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-ktx:20.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth:21.0.7@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-api-phone:17.4.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-interop:20.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore:24.2.2@aar" level="project" />

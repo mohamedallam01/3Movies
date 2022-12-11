@@ -10,11 +10,17 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="login">Login</string>
     <string name="user_name">User Name</string>
     <string name="password">Password</string>
     <string name="submit">Submit</string>
     <string name="user_fragment">User Fragment</string>
     <string name="favourites_fragment">Favourites Fragment</string>
     <string name="hello_world">Hello World !</string>
+    <string name="login_txt_view">Login</string>
+    <string name="user_name_edt">User Name</string>
+    <string name="pass_edt">Password</string>
+    <string name="submit_btn">Submit</string>
+    <string name="no_movies_in_favorite" />
+    <string name="favorite" />
+
 </resources>

@@ -1,3 +1,6 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="_160sdp" />
+    <dimen name="_240sdp" />
+    <dimen name="movie_h" />
 </resources>

@@ -18,6 +18,6 @@ interface TopDao {
     @Insert
     suspend fun insertTop(top_rated: TopRatedMovie)
 
-    @Query("SELECT * FROM top_rated WHERE TopID = :TopId")
-    fun getTopMovieById(TopId: Int): Flow<TopRatedMovie>
+    @Query("SELECT * FROM top_rated WHERE TopID = :topId")
+    fun getTopMovieById(topId: Int): Flow<TopRatedMovie>
 }

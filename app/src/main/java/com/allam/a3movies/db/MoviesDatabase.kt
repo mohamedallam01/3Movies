@@ -1,16 +1,16 @@
 package com.allam.a3movies.db
 
 import android.content.Context
-import androidx.room.Database
-import androidx.room.Room
-import androidx.room.RoomDatabase
+import androidx.room.*
 import com.allam.a3movies.model.Movie
-import com.allam.a3movies.model.TopRatedMovie
+import com.allam.a3movies.ui.details.DetailsFragment
+import com.allam.a3movies.util.MovieConverters
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.synchronized
 
 
 @Database(entities = [Movie::class], version = 1, exportSchema = false)
+@TypeConverters(MovieConverters::class)
 abstract class MovieDatabase : RoomDatabase() {
     abstract fun movieDao(): MovieDao
 

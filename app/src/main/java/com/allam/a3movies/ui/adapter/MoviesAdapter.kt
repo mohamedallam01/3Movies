@@ -13,50 +13,76 @@ import coil.load
 import com.allam.a3movies.R
 import com.allam.a3movies.model.Movie
 import com.allam.a3movies.ui.home.HomeFragmentDirections
+import com.allam.a3movies.util.FavoriteListener
 
 
 class MoviesAdapter() : ListAdapter<Movie, MoviesAdapter.MovieViewHolder>(MovieDiffUtil()) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder =
-        MovieViewHolder(
+
+    lateinit var favoriteListener: FavoriteListener
+
+
+
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
+
+        val popView =
             LayoutInflater.from(parent.context).inflate(R.layout.movie_list_item, parent, false)
 
-        )
+
+
+        /*val favView =
+            LayoutInflater.from(parent.context).inflate(R.layout.movie_list_item, parent, false)*/
+
+        return MovieViewHolder( popView)
+
+    }
+
 
 
 
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
-        holder.bindData(getItem(position))
+        holder.bindDataPop(getItem(position))
+
+       /* holder.bindDataFav(getItem(position), favoriteListener)*/
     }
 
 
-    class MovieViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+    class MovieViewHolder( popView : View) : RecyclerView.ViewHolder(popView) {
 
-        var txtTitle: TextView = view.findViewById(R.id.movie_name)
-        var txtReDate: TextView = view.findViewById(R.id.redate_movie)
-        var txtVoteAv: TextView = view.findViewById(R.id.voteAV_movie)
-        var image_movie: ImageView = view.findViewById(R.id.movie_image)
-
-
-        fun bindData(movie: Movie) {
+        var txtTitle: TextView = popView.findViewById(R.id.movie_name)
+        var txtReDate: TextView = popView.findViewById(R.id.redate_movie)
+        private var txtVoteAv: TextView = popView.findViewById(R.id.voteAV_movie)
+        private var imageMovie: ImageView = popView.findViewById(R.id.movie_image)
+        fun bindDataPop(movie: Movie) {
             txtTitle.text = movie.title
             txtReDate.text = movie.release_date
             txtVoteAv.text = movie.vote_average.toString()
+
             val imageUrl = "https://image.tmdb.org/t/p/w500/${movie.imageUrl}"
-            image_movie.load(imageUrl)
-            image_movie.setOnClickListener {
+            imageMovie.load(imageUrl)
+            imageMovie.setOnClickListener {
                 val action =
                     HomeFragmentDirections.actionHomeFragmentToDetailsFragment(movieId = movie.id)
-                image_movie.findNavController().navigate(action)
+                imageMovie.findNavController().navigate(action)
             }
 
-
-
-
-
-
         }
+        /*var favTxtTitle: TextView = favView.findViewById(R.id.movie_name)
+        var favTxtReDate: TextView = favView.findViewById(R.id.redate_movie)
+        private var favTxtVoteAv: TextView = favView.findViewById(R.id.voteAV_movie)
+        private var favImageMovie: ImageView = favView.findViewById(R.id.movie_image)
+
+        fun bindDataFav(movie: Movie, favoriteListener: FavoriteListener){
+            favTxtTitle.text = movie.title
+            favTxtReDate.text= movie.release_date
+            favTxtVoteAv.text= movie.vote_average.toString()
+
+            val favImageUrl = "https://image.tmdb.org/t/p/w500/${movie.imageUrl}"
+            favImageMovie.load(favImageUrl)
+
+        }*/
     }
 
 
