@@ -33,11 +33,21 @@ class RepositoryModule {
         DetailsMovieRepoImpl(movieDao, moviesService)
 
 
+
     @OptIn(ExperimentalCoroutinesApi::class)
     @Singleton
     @Provides
     fun provideTopMovieRepository(topMovieDao : TopDao, topMoviesService: TopMoviesService): TopRatedRepo =
         TopRatedImpl(topMovieDao, topMoviesService)
+
+
+    @Singleton
+    @Provides
+    fun provideTopDetailsRepository(
+        topDao: TopDao,
+        topMoviesService: TopMoviesService
+    ): TopDetailsRepo =
+        TopDetailsRepoImpl(topDao, topMoviesService)
 
 
 }

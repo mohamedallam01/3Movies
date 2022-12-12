@@ -14,6 +14,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-400dp"
+        android:layout_marginBottom="502dp"
+        android:src="@drawable/selector_favlist_item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image_movie"
+        app:layout_constraintStart_toEndOf="@+id/image_movie"
+        app:layout_constraintTop_toBottomOf="@+id/image_movie" />
+
     <TextView
         android:id="@+id/name_movie"
         style="@style/TextAppearance.MaterialComponents.Headline5"
@@ -84,6 +99,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/overview" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,5 @@
 package com.allam.a3movies.network.api
 
-import com.allam.a3movies.model.MoviesResponse
 import com.allam.a3movies.model.TopRatedMovie
 import com.allam.a3movies.model.TopRatedMovieResponse
 import com.allam.a3movies.util.API_KEY
@@ -14,9 +13,9 @@ interface TopMoviesService {
     @GET("movie/top_rated")
     suspend fun getTopRatedMovies(@Query("api_key") key: String = API_KEY): Response<TopRatedMovieResponse>
 
-    @GET("movie/{TopID}")
+    @GET("movie/{topID}")
     suspend fun getTopSingleMovie(
-        @Path("TopID") id: Int,
+        @Path("topID") id: Int,
         @Query("api_key") key: String = API_KEY
     ): Response<TopRatedMovie>
 }

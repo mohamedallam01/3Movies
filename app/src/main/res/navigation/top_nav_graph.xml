@@ -11,11 +11,15 @@
         android:label="fragment_top_rated"
         tools:layout="@layout/fragment_top_rated" >
         <action
-            android:id="@+id/action_topRatedFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
+            android:id="@+id/action_topRatedFragment_to_topDetails"
+            app:destination="@id/topDetails" />
     </fragment>
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.allam.a3movies.ui.details.DetailsFragment"
-        android:label="DetailsFragment" />
+        android:id="@+id/topDetails"
+        android:name="com.allam.a3movies.ui.details.TopDetails"
+        android:label="TopDetails" >
+        <argument
+            android:name="topId"
+            app:argType="integer" />
+    </fragment>
 </navigation>

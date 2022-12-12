@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName
 @Entity(tableName = "movies")
 data class Movie(
     @PrimaryKey(autoGenerate = true)
-    @SerializedName("id") var id: Int = 0,
+    @SerializedName("id") var id: Int = 0 ,
     @ColumnInfo(name = "title")
     @SerializedName("title") var title: String? = null,
     @ColumnInfo(name = "backdrop_path")
@@ -19,7 +19,8 @@ data class Movie(
     @SerializedName("release_date") var release_date: String? = null,
     @ColumnInfo(name = "vote_average")
     @SerializedName("vote_average") var vote_average: Float = 0.0f,
+)
 
 
-    )
+
 

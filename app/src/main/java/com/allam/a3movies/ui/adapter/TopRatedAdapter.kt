@@ -17,6 +17,7 @@ import com.allam.a3movies.R
 import com.allam.a3movies.model.Movie
 import com.allam.a3movies.model.TopRatedMovie
 import com.allam.a3movies.ui.home.HomeFragmentDirections
+import com.allam.a3movies.ui.topRated.TopRatedFragmentDirections
 import com.allam.a3movies.ui.topRated.TopRatedViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
@@ -36,19 +37,20 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TopRatedViewH
 
     class TopRatedViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        private var TopTxtTitle: TextView = view.findViewById(R.id.top_movie_name)
-        private var TopImageMovie: ImageView = view.findViewById(R.id.top_rated_img)
+        private var topTxtTitle: TextView = view.findViewById(R.id.top_movie_name)
+        private var topImageMovie: ImageView = view.findViewById(R.id.top_rated_img)
 
 
         fun bindData(topRatedMovie: TopRatedMovie) {
-            TopTxtTitle.text = topRatedMovie.TopTitle
+            topTxtTitle.text = topRatedMovie.TopTitle
             val imageUrl = "https://image.tmdb.org/t/p/w500/${topRatedMovie.TopImageUrl}"
-            TopImageMovie.load(imageUrl)
-            /*Top_image_movie.setOnClickListener {
+            topImageMovie.load(imageUrl)
+            topImageMovie.setOnClickListener {
                 val action =
-                   HomeFragmentDirections.actionHomeFragmentToDetailsFragment(movieId = topRatedMovie.id)
-               Top_image_movie.findNavController().navigate(action)
-           }*/
+                    TopRatedFragmentDirections.actionTopRatedFragmentToTopDetails(topId = topRatedMovie.TopId)
+                topImageMovie.findNavController().navigate(action)
+            }
+
 
 
 
@@ -69,49 +71,3 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TopRatedViewH
     }
 
 }
-
-/*class TopRatedAdapter  constructor(
-    private val topRatedList : List<TopRatedMovie>,
-    private val context : Context
-): BaseAdapter() {
-
-    private var layoutInflater: LayoutInflater? = null
-    private lateinit var topRatedTitle: TextView
-    private lateinit var topRatedImg: ImageView
-    lateinit var topRatedMovie: TopRatedMovie
-
-    override fun getCount(): Int {
-        return topRatedList.size
-    }
-
-    override fun getItem(position: Int): Any? {
-        return null
-    }
-
-    override fun getItemId(position: Int): Long {
-        return 0
-    }
-
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View? {
-        var convertView = convertView
-
-        if (layoutInflater == null) {
-            layoutInflater =
-                context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-        }
-
-        if (convertView == null) {
-            convertView = layoutInflater!!.inflate(R.layout.card_view_item_grid, null)
-        }
-
-        topRatedTitle = convertView!!.findViewById(R.id.top_movie_name)
-        topRatedImg = convertView!!.findViewById(R.id.top_rated_img)
-
-        val imageUrl = "https://image.tmdb.org/t/p/w500/${topRatedMovie.TopImageUrl}"
-        topRatedImg.load(imageUrl)
-
-        topRatedTitle.text = topRatedList[position].toString()
-
-        return convertView
-
-    }*/

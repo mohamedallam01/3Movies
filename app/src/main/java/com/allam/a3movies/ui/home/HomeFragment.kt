@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.CheckBox
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.allam.a3movies.R
 import com.allam.a3movies.databinding.FragmentHomeBinding
 import com.allam.a3movies.ui.State
 import com.allam.a3movies.ui.adapter.MoviesAdapter
@@ -37,12 +39,14 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
+
+
+
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         moviesAdapter = MoviesAdapter()
 
         binding.movRecView.apply {
@@ -50,14 +54,14 @@ class HomeFragment : Fragment() {
             adapter = moviesAdapter
         }
 
+
+
+
         viewLifecycleOwner.lifecycleScope.launch {
             homeViewModel.movieData.collectLatest { state ->
 
                 if (state.isLoading()) binding.progressBar.visibility = View.VISIBLE
                 else binding.progressBar.visibility = View.INVISIBLE
-
-
-
 
                 when (state) {
                     is State.Error -> {

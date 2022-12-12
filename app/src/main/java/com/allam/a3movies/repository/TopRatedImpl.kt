@@ -18,19 +18,19 @@ import javax.inject.Inject
 
 @ExperimentalCoroutinesApi
 class TopRatedImpl @Inject constructor(
-    private val topMovieDao : TopDao,
+    private val topDao : TopDao,
     private val topMoviesService : TopMoviesService
 
 ) : TopRatedRepo{
 
     override fun getAllTopRatedMovies(): Flow<Resource<List<TopRatedMovie>>> {
         return object : NetworkBoundRepository<List<TopRatedMovie>, TopRatedMovieResponse>() {
-            override fun fetchFromLocal(): Flow<List<TopRatedMovie>> = topMovieDao.getAllTop()
+            override fun fetchFromLocal(): Flow<List<TopRatedMovie>> = topDao.getAllTop()
             override suspend fun fetchFromRemote(): Response<TopRatedMovieResponse> =
                 topMoviesService.getTopRatedMovies()
 
             override suspend fun saveRemoteData(response: TopRatedMovieResponse) {
-                topMovieDao.insertAllTop(response.topRatedList)
+                topDao.insertAllTop(response.topRatedList)
             }
         }.asFlow()
     }
