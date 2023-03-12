@@ -10,5 +10,5 @@ Sample Android app using MVVM, Hilt, Retrofit, Navigation, Coli and more
 - MVVM architecture
 - Repository pattern
 - Navigation component
-- Coli for image caching 
+- Coil for image caching 
 - RecyclerView and Adapter
