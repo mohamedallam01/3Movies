@@ -123,7 +123,7 @@ class DetailsFragment : Fragment() {
 
      private fun setMovieDetails(movie: Movie) {
         binding.nameMovie.text = movie.title
-        binding.overviewMovie.text = movie.overView
+        binding.overviewDetails.text = movie.overView
         binding.releaseDateMovie.text = movie.release_date
         binding.voteAvMovie.text = movie.vote_average.toString()
         val imageUrl = "https://image.tmdb.org/t/p/w500/${movie.imageUrl}"
