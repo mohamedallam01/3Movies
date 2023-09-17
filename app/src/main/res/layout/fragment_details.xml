@@ -6,101 +6,180 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/image_movie"
-        android:layout_width="413dp"
-        android:layout_height="230dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_item_grid"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/image_movie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/movie_image"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fav_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3F51B5"
+            android:contentDescription="@string/add_to_favorites"
+            android:src="@drawable/selector_fav_list_item" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_rounded_edge"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/card_view_item_grid">
 
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fav_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="-50dp"
-        android:layout_marginTop="-50dp"
-        android:layout_marginEnd="-400dp"
-        android:layout_marginBottom="502dp"
-        android:src="@drawable/selector_favlist_item"
+        <TextView
+            android:id="@+id/name_movie"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/release_date_movie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_movie">
+
+
+            <ImageView
+                android:id="@+id/image_star"
+                android:layout_width="24dp"
+                android:layout_height="22dp"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/ic_star_icon_13"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/vote_av_movie"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/vote_av_movie"
+                style="@style/TextAppearance.MaterialComponents.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="7"
+                android:textAlignment="textStart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/image_star"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/release_date_movie"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/release_date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/ic_rounded_edge"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/image_movie"
-        app:layout_constraintStart_toEndOf="@+id/image_movie"
-        app:layout_constraintTop_toBottomOf="@+id/image_movie" />
-
-    <TextView
-        android:id="@+id/name_movie"
-        style="@style/TextAppearance.MaterialComponents.Headline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="150dp"
-        android:text="Text View"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_movie" />
-
-    <TextView
-        android:id="@+id/release_date_movie"
-        style="@style/TextAppearance.MaterialComponents.Body2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="30dp"
-        android:text="Text View"
-        app:layout_constraintBottom_toTopOf="@+id/vote_av_movie"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_movie" />
-
-    <TextView
-        android:id="@+id/vote_av_movie"
-        style="@style/TextAppearance.MaterialComponents.Body1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="169dp"
-        android:layout_marginEnd="169dp"
-        android:layout_marginBottom="106dp"
-        android:text="Text View"
-        app:layout_constraintBottom_toTopOf="@+id/overview_movie"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/overview"
-        style="@style/TextAppearance.MaterialComponents.Headline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="190dp"
-        android:layout_marginEnd="337dp"
-        android:layout_marginBottom="279dp"
-        android:text="Overview"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_movie" />
-
-    <TextView
-        android:id="@+id/overview_movie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="150dp"
-        android:padding="10dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/overview" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
 
+        <TextView
+            android:id="@+id/overview"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="190dp"
+            android:text="@string/overview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/overview_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="110dp"
+            android:padding="10dp"
+            android:text="@string/overview_details"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

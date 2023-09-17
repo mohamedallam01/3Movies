@@ -65,7 +65,7 @@ class TopDetails : Fragment() {
 
     fun setTopMovieDetails(topRatedMovie: TopRatedMovie){
         binding.topNameMovie.text = topRatedMovie.TopTitle
-        binding.topOverviewMovie.text = topRatedMovie.TopOverView
+        binding.topOverviewDetails.text = topRatedMovie.TopOverView
         binding.topReleaseDateMovie.text = topRatedMovie.TopReleaseDate
         binding.topVoteAvMovie.text = topRatedMovie.TopVoteAverage.toString()
         val topImageUrl = "https://image.tmdb.org/t/p/w500/${topRatedMovie.TopImageUrl}"
