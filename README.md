@@ -15,7 +15,7 @@
 - **RecyclerView and Adapter**: The UI utilizes RecyclerView and custom adapters to display lists of movies in a flexible and efficient manner.
 
 ## Installation
-To build and run the app, follow these steps:
+To build and run the app:
 
 1. Clone the repository: https://github.com/mohamedallam01/3Movies.git
 
