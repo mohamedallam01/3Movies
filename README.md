@@ -17,5 +17,13 @@
 ## Installation
 To build and run the app, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: https://github.com/mohamedallam01/3Movies.git
+
+## Usage
+Upon launching the app, users are presented with a list of popular movies. They can scroll through the list, view details of each movie, and can add any movie to the favorite list.
+
+## Contributing
+Contributions to the project are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+
 
